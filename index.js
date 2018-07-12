@@ -9,7 +9,7 @@ function driverNamesWithRevenueOver(drivers, value) {
 }
 
 function exactMatch( drivers, attr) {
-  const key = attr.keys[0]
-  const val = attr.keys[1]
+  const key = Object.keys(attr)[0]
+  const val = Object.values(attr)[0]
 
 }
